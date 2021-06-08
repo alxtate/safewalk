@@ -1,6 +1,6 @@
 import React from 'react';
 import { Platform } from 'react-native';
-import { createBottomTabNavigator } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 import { createStackNavigator } from 'react-navigation-stack';
 import { createMaterialTopTabNavigator } from 'react-navigation-tabs';
 
@@ -47,7 +47,7 @@ const InputStack = createMaterialTopTabNavigator({
     Cancel: CancelPage,
 });
 
-InputStack.navigation.Options = {
+InputStack.navigationOptions = {
     tabBarLabel: 'Reserve',
     tabBarIcon: ({ focused }) => (
         <TabBarIcon
@@ -56,6 +56,7 @@ InputStack.navigation.Options = {
         />
     ),
 };
+
 
 export default createBottomTabNavigator ({
     HomeStack,

@@ -1,4 +1,7 @@
-import { AppLoading, Asset, Font, Icon } from 'expo';
+import { Ionicons } from '@expo/vector-icons';
+import * as Font from 'expo-font';
+import { Asset } from 'expo-asset';
+import AppLoading from 'expo-app-loading';
 import React from 'react';
 import { StyleSheet, Text, View, Platform, StatusBar } from 'react-native';
 import AppNavigator from './navigation/AppNavigator';
@@ -34,7 +37,7 @@ export default class App extends React.Component{
         require('./assets/images/robot-prod.png'),
       ]),
       Font.loadAsync({
-        ...Icon.Ionicons.Font,
+        ...Ionicons.font,
         'space-mono': require('./assets/fonts/SpaceMono-Regular.ttf'),
       }),
     ]);
@@ -42,6 +45,10 @@ export default class App extends React.Component{
 
   _handleLoadingError = error => {
     console.warn(error);
+  };
+
+  _handleFinishLoading = () => {
+    this.setState({ isLoadingComplete: true });
   };
 }
 

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, Text, View, AsyncStorage, ScrollView, KeyboardAvoidingView, StatusBar } from 'react-native';
+import { Platform, StyleSheet, Text, View, ScrollView, KeyboardAvoidingView, StatusBar } from 'react-native';
+import AsyncStorage from 'react-native-async-storage';
 import { Searchbar, Button, TextInput} from 'react-native-paper';
 import { Input } from 'react-native-elements';
 

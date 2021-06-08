@@ -99,7 +99,7 @@ export default class HomeScreen extends React.Component {
 
                 <View style={styles.tabBarInfoContainer}>
                     <Icon name='warning' size={40} color='red' />
-                    <Text style={styles.tabBarInfoText}>In Case of an Emergeny Call 911</Text>
+                    <Text style={styles.tabBarInfoText}>In Case of an Emergency Call 911</Text>
                 </View>
             </View>
         );

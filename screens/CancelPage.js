@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Text, Button, StatusBar, Picker, TextInput, KeyboardAvoidingView, View, StyleSheet, AsyncStorage } from 'react-native';
+import { Text, Button, StatusBar, Picker, TextInput, KeyboardAvoidingView, View, StyleSheet } from 'react-native';
+import AsyncStorage from 'react-native-async-storage';
 import { Constants } from 'expo';
 
 export default class CancelPage extends React.Component {

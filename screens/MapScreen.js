@@ -111,19 +111,7 @@ export default class MapScreen extends React.PureComponent {
       
       </MapView>
 
-    <FAB
-      style={styles.fab1}
-      large
-      icon="input"
-      onPress={() => console.log('Pressed')}
-  />
 
-    <FAB
-      style={styles.fab2}
-      large
-      icon="add-location"
-      onPress={() => console.log('Pressed')}
-  />
         
       </View>
     );
