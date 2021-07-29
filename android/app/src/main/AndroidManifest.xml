@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.safewalk">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.safewalkrebuilt">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <!-- OPTIONAL PERMISSIONS, REMOVE WHATEVER YOU DO NOT NEED -->
@@ -20,6 +20,7 @@
   >
     <meta-data android:name="expo.modules.updates.EXPO_UPDATE_URL" android:value="YOUR-APP-URL-HERE"/>
     <meta-data android:name="expo.modules.updates.EXPO_SDK_VERSION" android:value="YOUR-APP-SDK-VERSION-HERE"/>
+    <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCxsldrLT500vHOFMORJa5oVeId1o7-szI"
     <activity
       android:name=".MainActivity"
       android:label="@string/app_name"
