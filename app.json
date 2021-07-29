@@ -1,9 +1,9 @@
 {
-  "name": "safewalk",
-  "displayName": "safewalk",
+  "name": "safewalk-rebuilt",
+  "displayName": "safewalk-rebuilt",
   "expo": {
-    "name": "safewalk",
-    "slug": "safewalk",
+    "name": "safewalk-rebuilt",
+    "slug": "safewalk-rebuilt",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
